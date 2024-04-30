@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Login - LinkedIn</title>
+</head>
+<body>
+  <div class="container">
+    <div class="login-container">
+      <h2>Faça login</h2>
+      <form id="loginForm">
+        <div class="input-container">
+          <input type="number" id="number" name="number" required>
+          <label for="number"><b>Código</b></label>
+        </div>
+        <div class="input-container">
+          <input type="password" id="password" name="password" required>
+          <label for="password"><b>Senha</b></label>
+        </div>
+        <button type="button" onclick="login()">Entrar</button>
+      </form>
+      <p class="forgot-password"><a href="forgot_password.html" class="forgot-link">Esqueceu sua senha?</a></p>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+  
+  <!-- Adicione esta linha para redirecionar -->
+  <script>
+    function login() {
+      // Adicione aqui o código para verificar as credenciais do usuário
+      // Se as credenciais forem válidas, redirecione para outra página
+      window.location.href = 'layout.html';
+    }
+  </script>
+</body>
+</html>

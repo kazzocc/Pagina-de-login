@@ -1,0 +1,155 @@
+/* Animação de transição nos botões */
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #d2e716; /* Altere para a cor desejada */
+  transform: scale(1.2); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('logoetec2.jpg'); /* Caminho para sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    padding: 60px; /* Aumenta o preenchimento */
+    border-radius: 8px;
+    background-color: #e2e2e2;
+    box-shadow: 0px 0px 10px rgb(6, 6, 15);
+    text-align: center;
+    max-width: 400px; /* Define a largura máxima */
+    width: 100%; /* Faz com que o contêiner ocupe toda a largura disponível */
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
+  
+  h2 {
+    margin-bottom: 0 auto;
+    font-size: xx-large;
+    color: #180606; /* Cor branca */
+    font-weight: bold; /* Texto em negrito */
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 30px; /* Aumenta a margem inferior */
+  }
+  
+  .input-container input {
+    margin: 0 auto;
+    width: 100%;
+    padding: 15px; /* Aumenta o preenchimento */
+    border: none;
+    border-bottom: 1px solid #180606;
+    background-color: transparent;
+    color: #0f0404; /* Cor branca */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+  }
+  
+  .input-container input:focus {
+    outline: none;
+    border-color: #da0000;
+  }
+  
+  .input-container label {
+    position: absolute;
+    top: 15px; /* Ajusta a posição do rótulo */
+    left: 0;
+    color: #180606; /* Cor branca */
+    transition: 0.3s;
+    pointer-events: none;
+  }
+  
+  .input-container input:focus + label, .input-container input:valid + label {
+    top: -20px; /* Ajusta a posição do rótulo quando focado ou preenchido */
+    font-size: 14px; /* Reduz o tamanho da fonte do rótulo */
+    color: #da0000;
+  }
+  
+  button {
+    background-color: #da0000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Aumenta o preenchimento do botão */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #da0000;
+  }
+  
+  .forgot-password {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff; /* Cor branca */
+  }
+  
+  .forgot-password a {
+    color: #da0000;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+
+  /* Animação de transição nos botões */
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #180606; /* Cor de fundo mesclada entre preto e branco */
+  color: #da0000; /* Cor do texto em vermelho */
+}
+
+button:hover {
+  background-color: #da0000; /* Cor de fundo mais clara ao passar o mouse */
+  color: #e2e2e2; /* Cor do texto em branco */
+  transform: scale(1.1); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+
+/* Animação de transição nos botões */
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #180606; /* Cor de fundo mesclada entre preto e branco */
+  color: #fc1515; /* Cor do texto em vermelho */
+}
+
+button:hover {
+  background-color: #da0000; /* Cor de fundo mais clara ao passar o mouse */
+  color: #e2e2e2; /* Cor do texto em branco */
+  transform: scale(1.1); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+
+/* Estilização do link "Esqueceu sua senha?" */
+.forgot-link {
+  font-size: 120%; /* Aumenta o tamanho do texto em 20% */
+  color: #da0000; /* Cor vermelha forte */
+  border: 1px solid black; /* Borda preta */
+  padding: 5px; /* Espaçamento interno */
+}
+
+.password-recovery-container{
+  padding: 60px; /* Aumenta o preenchimento */
+  border-radius: 8px;
+  background-color: #e2e2e2;
+  box-shadow: 0px 0px 10px rgb(6, 6, 15);
+  text-align: center;
+  max-width: 400px; /* Define a largura máxima */
+  width: 100%; /* Faz com que o contêiner ocupe toda a largura disponível */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
